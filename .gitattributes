@@ -1,2 +1,74 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dedal de Couleurs</title>
+    <style>
+        body {
+            background-color: white; /* Fond blanc */
+            text-align: center; /* Centrer le contenu */
+			font-size : 38px
+        }
+
+        #menu {
+            background-color: white; /* Couleur de fond du menu */
+            color: black; /* Couleur du texte du menu */
+            padding: 10px;
+        }
+
+        #menu a {
+            color: black; /* Couleur des liens du menu */
+            text-decoration: none; /* Enlever le soulignement des liens */
+            margin: 10px; /* Espacement entre les liens */
+        }
+
+        #image-container {
+            margin: 0 auto; /* Centrer l'image horizontalement */
+            max-width: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        hr {
+            border: 1px solid black; /* Ligne horizontale en dessous de l'image */
+            width: 80%; /* Largeur de la ligne horizontale (ajustable) */
+            margin: 20px auto; /* Centrer la ligne horizontale horizontalement */
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <a href="#section1">Accueil</a>
+        <a href="#section2">Boutique</a>
+        <a href="#section3">Nouveautés</a>
+        <a href="#section4">Contactez-nous</a>
+    </div>
+    <div id="image-container">
+        <img src="images\NatValdim.jpg" alt="Image Principale" width="1640" height="800">
+    </div>
+    <hr>
+
+    <!-- Les sections de la boutique -->
+   <section id="section1">
+    <h2>Accueil</h2>
+    <p>Bienvenue sur la page d'accueil de notre boutique en ligne.</p>
+</section>
+
+<section id="section2">
+    <h2>Boutique</h2>
+    <p>Découvrez notre sélection de produits de qualité.</p>
+</section>
+
+<section id="section3">
+    <h2>Nouveautés</h2>
+    <p>Restez à jour avec nos dernières nouveautés.</p>
+</section>
+
+<section id="section4">
+    <h2>Contactez-nous</h2>
+    <p>N'hésitez pas à nous contacter pour toute question ou commentaire.</p>
+</section>
+</body>
+</html>
