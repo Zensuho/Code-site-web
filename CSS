@@ -1,0 +1,101 @@
+        body {
+            background-color: white; /* Fond blanc */
+            text-align: center; /* Centrer le contenu */
+			font-size : 38px ;
+            font-family: 'Gilda Display' ;
+        }
+
+        #menu {
+            background-color: white; /* Couleur de fond du menu */
+            color: black; /* Couleur du texte du menu */
+            padding: 10px; 
+        }
+
+        #menu a {
+            color: black; /* Couleur des liens du menu */
+            text-decoration: none; /* Enlever le soulignement des liens */
+            margin: 10px; /* Espacement entre les liens */
+        }
+
+        #image-container {
+            margin: 0 auto; /* Centrer l'image horizontalement */
+            max-width: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        hr {
+            border: 1px solid black; /* Ligne horizontale en dessous de l'image */
+            width: 80%; /* Largeur de la ligne horizontale (ajustable) */
+            margin: 20px auto; /* Centrer la ligne horizontale horizontalement */
+        }
+
+        .carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.carousel-paragraphe {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    background-color: #F0A891;
+    margin: 0;
+    color: black;
+    font-size: 35px;
+    font-family: 'Gilda Display';
+    letter-spacing: -0.665px;
+}
+
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(100%);
+    font-size: 35px;
+    background: none;
+    border: 2px solid aqua;
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 0, 0) ;
+    z-index: 2;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.prev {
+    left: 130px;
+}
+
+.next {
+    right: 130px;
+}
+
+
+        .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
